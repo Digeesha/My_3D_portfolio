@@ -1,0 +1,258 @@
+import { rishabh, Wovvtech, frieghtcom, bharti } from "../assets/images";
+import {
+    bus,
+    contact,
+    css,
+    sport,
+    java,
+    git,
+    github,
+    html,
+    javascript,
+    linkedin,
+    mongodb,
+    mui,
+    nodejs,
+    nhs,
+    react,
+    angular,
+    employee,
+    cafe,
+    tailwindcss,
+    threads,
+    springboot,
+    hibernate,
+    mysql,
+    oracle,
+    postgresql,
+    docker,
+    jenkins,
+    aws,
+    linux,
+    windows,
+    python,
+    springmvc,
+    ai,
+    blockchain,
+    jira,
+    splunk,
+    svn,
+    visualstudio,
+    webstorm,
+    sublime,
+    eclipse,
+    intellij,
+    shell,
+    bat
+} from "../assets/icons";
+
+export const skills = {
+  Frontend: [
+    { name: "HTML", imageUrl: html },
+    { name: "CSS", imageUrl: css },
+    { name: "JavaScript", imageUrl: javascript },
+    { name: "React", imageUrl: react },
+    { name: "angular", imageUrl: angular },
+    { name: "Tailwind CSS", imageUrl: tailwindcss },
+    { name: "Material-UI", imageUrl: mui }
+  ],
+  Backend: [
+    { name: "Node.js", imageUrl: nodejs },
+    { name: "Java", imageUrl: java },
+    { name: "Python", imageUrl: python },
+    { name: "Artificial_Intelligence", imageUrl: ai },
+    { name: "Blockchain", imageUrl: blockchain }
+  ],
+  FrameWork: [
+    { name: "Spring MVC", imageUrl: springmvc },
+    { name: "Spring Boot", imageUrl: springboot },
+    { name: "Hibernate", imageUrl: hibernate },
+  ],
+  Database: [
+    { name: "MongoDB", imageUrl: mongodb },
+    { name: "MySQL", imageUrl: mysql },
+    { name: "PostgreSQL", imageUrl: postgresql },
+    { name: "Oracle", imageUrl: oracle },
+  ],
+   Scripting_Languages: [
+    { name: "Shell Script (.sh)", imageUrl: shell },
+    { name: "Batch Script (.bat)", imageUrl: bat },
+  ],
+  Development_Tool: [
+    { name: "Eclipse", imageUrl: eclipse },
+    { name: "Intellij", imageUrl: intellij  },
+    { name: "Visual Studio Code", imageUrl: visualstudio },
+    { name: "Sublime Text", imageUrl: sublime  },
+    { name: "WebStorm", imageUrl: webstorm },
+  ],
+  DevOps_Cloud: [
+    { name: "Docker", imageUrl: docker },
+    { name: "Jenkins", imageUrl: jenkins },
+    { name: "AWS", imageUrl: aws },
+  ],
+  Tools_OS: [
+    { name: "Git", imageUrl: git },
+    { name: "GitHub", imageUrl: github },
+    { name: "Linux", imageUrl: linux },
+    { name: "Windows", imageUrl: windows },
+    { name: "Jira", imageUrl: jira },
+    { name: "Splunk", imageUrl: splunk },
+    { name: "SVN", imageUrl: svn }
+  ],
+};
+
+
+export const experiences = [
+    {
+        title: "Technical Java Support Engineer",
+        company_name: "Freightcom Inc.",
+        icon: frieghtcom,
+        iconBg: "#accbe1",
+        date: "November 2021 - August 2023",
+        points: [
+            "Analyzed and resolved production tickets by identifying root causes, ensuring minimal downtime and maintaining SLAs.",
+            "Designed and implemented bug fixes and feature enhancements across multiple Java-based microservices using Spring Boot and RESTful APIs.",
+            "Collaborated closely with cross-functional teams including QA, DevOps, and Business Analysts to ensure seamless integration and deployment.",
+            "Wrote and maintained detailed proposal documents and comprehensive API documentation to improve developer onboarding and system transparency.",
+            "Introduced automation scripts (Shell/BAT) to streamline common support tasks, reducing manual intervention and increasing team productivity.",
+            "Worked with ActiveMQ and MySQL to optimize backend data flows, improving message handling and storage efficiency.",
+            "Leveraged tools like Jira, Splunk, and Git to track issues, debug production anomalies, and manage codebase revisions.",
+            "Participated in code reviews and provided mentoring to junior support engineers on debugging, code quality, and design practices.",
+            "Developed reusable utilities for log analysis and issue triaging, reducing ticket resolution time by ~30%.",
+            "Wrote and maintained detailed proposal documents and comprehensive API documentation to improve developer onboarding and system transparency.",
+            "Maintained system uptime by monitoring performance indicators and proactively resolving bottlenecks.",
+        ],
+    },
+    {
+        title: "Software Engineer",
+        company_name: "Bharti Soft Tech Pvt Ltd. (Experian)",
+        icon: bharti,
+        iconBg: "#fbc3bc",
+        date: "July 2019 - August 2021",
+        points: [
+            "Collaborated directly with clients to gather requirements, propose scalable technical solutions, and prepare detailed proposal documentation before development.",
+            "Developed and enhanced backend modules using Java and Spring Boot for telecom projects focused on balance monitoring, promotional offers, and scoring systems.",
+            "Built and maintained RESTful APIs and created detailed API and testing documentation to support team understanding and future integration needs.",
+            "Worked in an Agile/Scrum environment, actively participating in sprint planning, backlog grooming, and daily stand-ups to ensure timely delivery.", 
+            "Implemented key business logic for services like low-balance notifications, offer generation, and real-time customer scoring, improving system responsiveness and engagement rates.",
+            "Conducted unit testing and system validation to ensure software quality and compliance with business requirements.",
+            "Coordinated with QA and DevOps teams to streamline deployments and resolve environment-related issues.",
+            "Optimized codebase for performance and reliability, reducing response times and enhancing scalability.",
+            "Maintained clean Git/SVN repositories, followed branching standards, and contributed to code reviews for continuous improvement.",
+        ],
+ },
+    {
+        title: "Junior Java Developer",
+        company_name: "WovVTech (Techno Compass Consulting Pvt. Ltd.)",
+        icon: Wovvtech,
+        iconBg: "#b7e4c7",
+        date: "May 2018 - May 2019",
+        points: [
+            "Analyzed client business requirements and translated them into functional and technical specifications for development.",
+            "Participated in the full software development lifecycle—design, coding, testing, and deployment—using Agile methodologies and MVC architecture.",
+            "Developed backend components in Java and implemented features for enterprise software such as POS systems, laundry management platforms, and daily sales reporting tools.",
+            "Integrated databases using MySQL, and ensured data integrity and optimized query performance.", 
+            "Collaborated with cross-functional teams to ensure on-time delivery of features aligned with business goals.",
+            "Conducted unit testing and participated in user acceptance testing (UAT) to validate system performance.",
+            "Coordinated with QA and DevOps teams to streamline deployments and resolve environment-related issues.",
+            "Gained foundational experience in production support, debugging, and iterative delivery practices in a fast-paced environment.",
+        ],
+    },
+    {
+        title: "Java Intern",
+        company_name: "Rishabh Software Pvt. Ltd.",
+        icon: rishabh,
+        iconBg: "#a2d2ff",
+        date: "September 2017 - May 2018",
+        points: [
+            "Underwent intensive hands-on training in Core Java, Advanced Java, Spring, Hibernate, and front-end technologies including HTML, CSS, JavaScript, and jQuery.",
+            "Gained foundational experience in full-stack development and MVC-based architecture for web applications.",
+            "Trained in Magento e-commerce platform, covering core PHP, product catalog configuration, payment integration, and layout theming using MVC principles.",
+            "Completed multiple mini-projects and coding assignments focused on real-world use cases under mentorship from senior developers.",
+            "Acquired practical exposure to software development workflows, version control systems, and debugging techniques.",
+        ],
+    },
+];
+
+export const socialLinks = [
+    {
+        name: 'Contact',
+        iconUrl: contact,
+        link: '/contact',
+    },
+    {
+        name: 'GitHub',
+        iconUrl: github,
+        link: 'https://github.com/Digeesha',
+    },
+    {
+        name: 'LinkedIn',
+        iconUrl: linkedin,
+        link: 'https://www.linkedin.com/in/digeesha-patel-881256152/',
+    }
+];
+
+export const projects = [
+    {
+        iconUrl: nhs,
+        theme: 'btn-back-red',
+        name: 'Machine Learning for Early Prediction of Unplanned and Emergency Readmissions Within 7 and 14 Days in NHS Acute Care',
+        description: 'Developed an explainable ML framework to predict unplanned and emergency NHS readmissions within 7 and 14 days—critical windows often overlooked in current research. Leveraged TF-IDF and PCA for semantic feature extraction from admission records, and utilized SHAP for model interpretability. Integrated results into a real-time decision-support dashboard to assist discharge planning and reduce short-term readmissions, supporting NHS digital transformation.',
+    },
+    {
+        iconUrl: threads,
+        theme: 'btn-back-green',
+        name: 'AI and Blockchain in E-Commerce Fraud Prevention',
+        description: 'AI-driven machine learning models combined with blockchain’s immutable ledger and smart contracts offer a powerful hybrid defense against sophisticated e-commerce fraud. By uniting anomaly-detecting algorithms (e.g., Random Forest, XGBoost, neural nets) with transparent, tamper-proof transaction records, this integrated approach can spot novel fraud schemes in real time, enforce compliance automatically, and restore consumer trust in the rapidly evolving digital marketplace.',
+        link: 'https://github.com/Digeesha/fraud_detection_Ecommerce_project',
+    },
+     {
+        iconUrl: threads,
+        theme: 'btn-back-green',
+        name: 'Decentralized Identity Verification',
+        description: 'Decentralized Identity Verification is an end-to-end system that combines AI-powered OCR (via EasyOCR and Google’s Gemini API) with blockchain anchoring (using Web3.js and a simple Solidity contract on a local Ganache network) to create tamper-proof proof-of-identity. Users upload a document image through a Flask-based web interface, which computes a SHA-256 hash of the document, records that hash on-chain, and logs transaction details—including user name, timestamp, and transaction hash—in a local SQLite database. By storing only cryptographic hashes on the blockchain and keeping raw data off-chain, the project ensures both verifiability and privacy while providing a transparent, auditable trail of identity verifications.',
+        link: 'https://github.com/Digeesha/-Decentralized_Identity_Verification',
+    },
+     {
+        iconUrl: ai,
+        theme: 'btn-back-green',
+        name: 'AI-Generated Deepfake Detection',
+        description: 'This project, titled AI-Generated Deepfake Detection, is a deep learning-based system designed to identify manipulated facial content in both images and videos using computer vision and neural network techniques. The core of the system is a fine-tuned ResNet18 architecture that was trained on two complementary datasets: GAN-generated face images (from the CIPLab dataset) and deepfake video frames (from the PranabKC dataset). By leveraging transfer learning and extensive preprocessing—including face detection, alignment, and data augmentation—the model was able to generalize across different manipulation techniques and perform binary classification with a high level of accuracy. The trained model achieved 96.3% accuracy, 96.7% recall, and an AUC-ROC score of 0.97, demonstrating strong performance in detecting subtle facial inconsistencies introduced by generative models like StyleGAN and DeepFaceLab. The project also features a full-stack implementation with a Flask API backend and a ReactJS-based frontend, allowing users to upload images or videos and receive real-time classification results with confidence scores in under 100 milliseconds per image. The system’s real-time capability, robust training pipeline, and integration with modern web technologies highlight its practical value for deployment in social media moderation, digital forensics, and news media authentication. This project reflects my expertise in applied machine learning, model optimization, data engineering, and end-to-end AI system development, and contributes to the growing need for tools that uphold trust and integrity in the digital media landscape.',
+        link: 'https://github.com/Digeesha/AI-Generated-Deepfake-Detection',
+    },
+    {
+        iconUrl: ai,
+        theme: 'btn-back-green',
+        name: 'Multimodal Fake News Detection',
+        description: 'This project focuses on building an AI-powered fake news detection system that analyzes both text and image inputs to identify misinformation. Leveraging BERT for textual analysis and ResNet-50 for image classification, the system was trained on the large-scale Fakeddit dataset. By integrating multimodal features through cross-modal fusion techniques, the model achieved high accuracy and robust AUC scores, outperforming traditional machine learning baselines. It also includes explainability via SHAP and fairness auditing using IBM’s AI Fairness 360 toolkit. The project showcases end-to-end development—from data preprocessing and model training to user interface deployment—and demonstrates real-world applicability in journalism, social media moderation, and digital trust tools.',
+        link: 'https://github.com/Digeesha/Multimodal-Fake-News-Detection-Using-AI',
+    },
+    {
+        iconUrl: bus,
+        theme: 'btn-back-blue',
+        name: 'Bus Reservation System',
+        description: 'This Bus Reservation System is a full-stack web application built with Java Spring Boot on the back end and AngularJS on the front end, using MySQL (and optionally H2) for data persistence. Administrators can register buses—defining each vehicle’s seating layout and stoppage details—then schedule trips with custom routes and dates. Customers search available routes by departure and arrival points, choose a bus, and book seats according to their preference. The system validates all inputs, manages real-time availability, and lets admins download PDF manifests of past or upcoming trips. With a clean MVC architecture, RESTful APIs, and data-backed services, it streamlines both seat allocation and operational reporting for bus operators.',
+        link: 'https://github.com/Digeesha/Bus-Reservation-System',
+    },
+    {
+        iconUrl: employee,
+        theme: 'btn-back-pink',
+        name: 'Employment Management System',
+        description: 'The Employee Management System is a full-stack web application built with Spring Boot and Thymeleaf (or Angular) on the front end, backed by a MySQL database. It provides administrators with a secure interface to perform CRUD operations on employee records—including personal details, department assignments, roles, and salary information—and to manage organizational hierarchies. Key features include form validation, paginated employee listings, dynamic search and filtering by name or department, and audit-ready logging of all changes. The clean MVC architecture and RESTful services ensure separation of concerns, while Spring Security (if enabled) enforces role-based access control, making it an extensible platform for real-world HR workflows.',
+        link: 'https://github.com/Digeesha/employee-management-system',
+    },
+    {
+        iconUrl: sport,
+        theme: 'btn-back-black',
+        name: 'Sports Events System',
+        description: 'This Sports Events System is a comprehensive web application for organizing and managing athletic events, built with a modern JavaScript stack (Node.js/Express on the back end and React on the front end) and MongoDB for data storage. Event organizers can create tournaments or matches—specifying sport type, venue, date/time, and participant limits—while athletes and spectators register accounts to sign up for events, purchase tickets, and view personalized schedules. The platform offers dynamic filtering and calendar views of upcoming competitions, real-time seat or slot availability checks, and email notifications for registration confirmations and event updates. Its modular RESTful API, JWT-based authentication, and role-based access control ensure a secure, scalable solution suitable for both small clubs and large sporting organizations.',
+        link: 'https://github.com/Digeesha/Sports-Events-System-master',
+    },
+    {
+        iconUrl: cafe,
+        theme: 'btn-back-yellow',
+        name: 'Cafe Management System',
+        description: 'This Café Management System is a full-stack web application built with Java Spring Boot on the backend and a server-rendered UI (Thymeleaf) on the frontend, backed by a MySQL database. It lets café staff manage menu items (including categories and pricing), track ingredient inventory, and process customer orders with table assignments and real-time stock adjustments. The system generates printable bills, daily sales and inventory reports, and provides CRUD operations for both menu and inventory entities. With a clean MVC architecture, RESTful endpoints, and form validation, it streamlines day-to-day café operations—ensuring accurate order handling, stock control, and business analytics.',
+        link: 'https://github.com/Digeesha/Cafe-Management-System',
+    }
+];

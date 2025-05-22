@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100" height="100" rx="16" fill="white"/>
+  <defs>
+    <linearGradient id="grad" x1="0" y1="100" x2="100" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#989FFF"/>
+      <stop offset="1" stop-color="#29A2FF"/>
+    </linearGradient>
+  </defs>
+  <text x="50%" y="58%" dominant-baseline="middle" text-anchor="middle"
+        font-family="Segoe UI, sans-serif" font-size="40" font-weight="bold"
+        fill="url(#grad)">
+    DP
+  </text>
+</svg>

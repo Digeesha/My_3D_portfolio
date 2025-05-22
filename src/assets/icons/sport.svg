@@ -1,0 +1,20 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="black" stroke-width="2">
+  <!-- Players' heads -->
+  <circle cx="80" cy="40" r="16" fill="black"/>
+  <circle cx="120" cy="40" r="16" fill="black"/>
+  <circle cx="160" cy="40" r="16" fill="black"/>
+  <!-- Players' bodies -->
+  <path d="M64,60 h32 v40 h-32 z" fill="black"/>
+  <path d="M104,60 h32 v40 h-32 z" fill="black"/>
+  <path d="M144,60 h32 v40 h-32 z" fill="black"/>
+
+  <!-- Soccer Ball -->
+  <circle cx="100" cy="140" r="50" stroke="black" stroke-width="4" fill="white"/>
+  <!-- Ball pentagons/hexagons pattern -->
+  <polygon points="100,90 120,110 110,140 90,140 80,110" fill="black"/>
+  <polygon points="100,190 120,170 100,150 80,170" fill="black"/>
+  <polygon points="100,90 80,110 60,100 80,90" fill="black"/>
+  <polygon points="100,90 120,110 140,100 120,90" fill="black"/>
+  <line x1="100" y1="90" x2="100" y2="190" />
+  <line x1="50" y1="140" x2="150" y2="140" />
+</svg>

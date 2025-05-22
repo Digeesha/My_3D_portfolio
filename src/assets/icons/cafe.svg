@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <!-- Hexagon outline -->
+  <polygon
+    points="100,10 170,55 170,145 100,190 30,145 30,55"
+    fill="none"
+    stroke="#9ACD32"
+    stroke-width="12"
+    stroke-linejoin="round"
+  />
+
+  <!-- Hand base -->
+  <path
+    d="M50,130 C50,160 150,160 150,130 L150,125 C150,100 75,100 50,125 Z"
+    fill="#F4A460"
+  />
+
+  <!-- Spoon -->
+  <path
+    d="M80,70 C85,65 95,65 100,70 L100,120 C100,130 80,130 80,120 Z
+       M85,70 C85,80 95,80 95,70"
+    fill="#A9A9A9"
+  />
+
+  <!-- Fork -->
+  <path
+    d="M120,70 C120,65 130,65 130,70 L130,120 C130,130 120,130 120,120 Z
+       M120,75 L130,75
+       M120,85 L130,85
+       M120,95 L130,95"
+    stroke="#A9A9A9"
+    stroke-width="4"
+    fill="none"
+  />
+
+  <!-- Handle shadows for depth -->
+  <path
+    d="M50,130 C50,140 150,140 150,130"
+    stroke="#D2691E"
+    stroke-width="12"
+    fill="none"
+  />
+</svg>
