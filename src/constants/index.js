@@ -231,6 +231,13 @@ export const projects = [
         link: 'https://github.com/Digeesha/Multimodal-Fake-News-Detection-Using-AI',
     },
     {
+        iconUrl: ai,
+        theme: 'btn-back-green',
+        name: 'AI Disease Prediction',
+        description: 'AI_Diease_prediction is a full-stack machine-learning application that forecasts the likelihood of disease outbreaks in any city and month by combining historical epidemiological data with climate variables. Its Flask-based API ingests user parameters (city, country, month), retrieves real-time weather and health statistics, and returns the top three disease threats with confidence scores—while a React dashboard offers an intuitive interface for visualization and interaction.',
+        link: 'https://github.com/Digeesha/Ai_Diease_prediction',
+    },
+    {
         iconUrl: bus,
         theme: 'btn-back-blue',
         name: 'Bus Reservation System',
