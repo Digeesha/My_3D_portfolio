@@ -49,6 +49,9 @@ import webstorm from './webstorm.svg'
 import intellij from './intellij.svg'
 import shell from './shell.svg'
 import bat from './bat.svg'
+import clickship from './clickship.svg'
+import inventory from './inventory.svg'
+import erp from './erp.svg'
 export {
     css,
     java,
@@ -98,5 +101,8 @@ export {
     eclipse,
     intellij,
     shell, 
-    bat
+    bat,
+    clickship,
+    erp,
+    inventory
 }

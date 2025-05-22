@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!-- central ERP circle -->
+  <circle cx="200" cy="200" r="50" fill="#EEEEEE" stroke="#000" stroke-width="2"/>
+  <text x="200" y="205" text-anchor="middle" font-size="24" font-family="Arial" fill="#000">ERP</text>
+
+  <!-- surrounding circles -->
+  <!-- colors chosen to approximate the sample -->
+  <!-- positions at every 45 degrees -->
+  <circle cx="200" cy="80"  r="30" fill="#FFD54F" stroke="#000" stroke-width="2"/> <!-- top -->
+  <circle cx="290" cy="120" r="30" fill="#B39DDB" stroke="#000" stroke-width="2"/>
+  <circle cx="320" cy="210" r="30" fill="#4FC3F7" stroke="#000" stroke-width="2"/>
+  <circle cx="290" cy="300" r="30" fill="#81C784" stroke="#000" stroke-width="2"/>
+  <circle cx="200" cy="340" r="30" fill="#F06292" stroke="#000" stroke-width="2"/>
+  <circle cx="110" cy="300" r="30" fill="#FFF176" stroke="#000" stroke-width="2"/>
+  <circle cx="80"  cy="210" r="30" fill="#90A4AE" stroke="#000" stroke-width="2"/>
+  <circle cx="110" cy="120" r="30" fill="#A1887F" stroke="#000" stroke-width="2"/>
+
+  <!-- placeholder icons as simple circles inside -->
+  <g fill="#000">
+    <circle cx="200" cy="80"  r="5"/>
+    <circle cx="290" cy="120" r="5"/>
+    <circle cx="320" cy="210" r="5"/>
+    <circle cx="290" cy="300" r="5"/>
+    <circle cx="200" cy="340" r="5"/>
+    <circle cx="110" cy="300" r="5"/>
+    <circle cx="80"  cy="210" r="5"/>
+    <circle cx="110" cy="120" r="5"/>
+  </g>
+</svg>

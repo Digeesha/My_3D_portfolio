@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Top face -->
+  <polygon points="50,10 150,10 120,60 20,60" fill="#0078d4"/>
+  <!-- Side face -->
+  <polygon points="20,60 120,60 120,160 20,160" fill="#003b71"/>
+  <!-- Pointer arrow -->
+  <g transform="translate(100,80)" fill="#333">
+    <path d="M0,0 L0,40 L15,30 L25,50 L35,45 L20,27 L35,27 Z"/>
+  </g>
+</svg>

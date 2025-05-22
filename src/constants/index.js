@@ -43,7 +43,10 @@ import {
     eclipse,
     intellij,
     shell,
-    bat
+    bat,
+    clickship,
+    inventory,
+    erp
 } from "../assets/icons";
 
 export const skills = {
@@ -254,5 +257,26 @@ export const projects = [
         name: 'Cafe Management System',
         description: 'This Café Management System is a full-stack web application built with Java Spring Boot on the backend and a server-rendered UI (Thymeleaf) on the frontend, backed by a MySQL database. It lets café staff manage menu items (including categories and pricing), track ingredient inventory, and process customer orders with table assignments and real-time stock adjustments. The system generates printable bills, daily sales and inventory reports, and provides CRUD operations for both menu and inventory entities. With a clean MVC architecture, RESTful endpoints, and form validation, it streamlines day-to-day café operations—ensuring accurate order handling, stock control, and business analytics.',
         link: 'https://github.com/Digeesha/Cafe-Management-System',
+    },
+    {
+        iconUrl: clickship,
+        theme: 'btn-back-yellow',
+        name: 'ClickShip Logistics Platform',
+        description: 'A legacy, end-to-end logistics solution built with Spring Boot (Java 8), ActiveMQ, and MySQL. It centralizes quoting, shipment processing, user management, invoicing, and administrative workflows. Core features include real-time quote generation, asynchronous shipment messaging, robust exception handling, and optimized database schemas supporting 50k+ daily transactions. Automated unit tests and CI pipelines ensure high reliability and maintainability.',
+        link: 'https://www.clickship.com/',
+    },
+    {
+        iconUrl: inventory,
+        theme: 'btn-back-yellow',
+        name: 'Inventory & Fulfillment Optimization Platform',
+        description: 'A microservices-based solution that dynamically balances safety stock and fulfillment capacity across multiple warehouses. Built with Spring Boot/MVC, Apache Kafka, Docker, JUnit, and Cucumber, it offers Inventory Management, Order Fulfillment, Availability checking, and Supply Management services. High‐throughput event streaming via Kafka enables real-time stock updates, while BDD test suites achieve 90% code coverage, accelerating release cycles by 25%. Developed in Agile Scrum with a consistent 2-week sprint cadence.',
+        link: 'https://www.wovvtech.com/products/wovvbiz-billing-banking-and-accounting-automation/',
+    },
+    {
+        iconUrl: erp,
+        theme: 'btn-back-yellow',
+        name: 'ERP Sales & Ordering Web Application',
+        description: 'A responsive web portal for sales teams to place and track large retail orders end-to-end—from order creation through delivery. Frontend built with HTML5, CSS3, and AngularJS; backend powered by Spring MVC, RESTful APIs, and MySQL. Features role-based Admin, User, and Sales modules, real-time order tracking, and printable invoices. Automated deployment pipelines cut manual release effort by 40% and supported adoption by 100+ sales representatives.',
+        link: '',
     }
 ];
