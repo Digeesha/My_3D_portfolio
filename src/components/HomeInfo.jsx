@@ -10,7 +10,7 @@ const HomeInfo = ({ currentStage }) => {
         <span className='font-semibold mx-2 text-white'>Digeesha Patel</span>
         👋
         <br />
-        Software Engineer
+        Founder at Alviora AI Limited
       </h1>
     );
 

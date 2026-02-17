@@ -63,8 +63,18 @@ export const skills = {
     { name: "Node.js", imageUrl: nodejs },
     { name: "Java", imageUrl: java },
     { name: "Python", imageUrl: python },
-    { name: "Artificial_Intelligence", imageUrl: ai },
     { name: "Blockchain", imageUrl: blockchain }
+  ],
+  AI_ML: [
+    { name: "Machine Learning", imageUrl: ai },
+    { name: "Deep Learning", imageUrl: ai },
+    { name: "Natural Language Processing (NLP)", imageUrl: ai },
+    { name: "Computer Vision", imageUrl: ai },
+    { name: "Large Language Models (LLMs)", imageUrl: ai },
+    { name: "TensorFlow", imageUrl: ai },
+    { name: "PyTorch", imageUrl: ai },
+    { name: "Explainable AI (SHAP)", imageUrl: ai },
+    { name: "Generative AI", imageUrl: ai },
   ],
   FrameWork: [
     { name: "Spring MVC", imageUrl: springmvc },
@@ -106,6 +116,20 @@ export const skills = {
 
 
 export const experiences = [
+    {
+        title: "Founder",
+        company_name: "Alviora AI Limited",
+        icon: ai,
+        iconBg: "#e0e7ff",
+        date: "2024 - Present",
+        link: "https://alvioraai.com",
+        points: [
+            "Building AI CareerPath Finder—an AI career coach for students and professionals that helps discover the right path, build skills, and move forward with confidence.",
+            "Delivering personalized career guidance, customized learning roadmaps, resume & interview prep, and job application support—powered by AI, guided by the user.",
+            "Combining cutting-edge AI with personalized learning paths to provide career clarity, skill growth, and 24/7 AI support across 100+ career paths.",
+            "Driving product strategy and scaling a platform that removes barriers to growth through accessible AI-powered guidance and practical insights.",
+        ],
+    },
     {
         title: "Technical Java Support Engineer",
         company_name: "Freightcom Inc.",
@@ -184,6 +208,11 @@ export const socialLinks = [
         link: '/contact',
     },
     {
+        name: 'Alviora AI',
+        iconUrl: ai,
+        link: 'https://alvioraai.com',
+    },
+    {
         name: 'GitHub',
         iconUrl: github,
         link: 'https://github.com/Digeesha',
@@ -196,6 +225,13 @@ export const socialLinks = [
 ];
 
 export const projects = [
+    {
+        iconUrl: ai,
+        theme: 'btn-back-green',
+        name: 'Alviora AI — AI CareerPath Finder',
+        description: 'Alviora AI is an AI career coach for students and professionals, offering clarity for your career—powered by AI, guided by you. The platform provides AI-powered career suggestions, customized study plans, curated learning resources, LinkedIn profile optimization, resume & interview preparation, and job application support. Alviora combines cutting-edge AI with personalized learning paths to help users gain real career clarity—removing traditional barriers to growth with accessible guidance, structured learning, and practical insights. Available at alvioraai.com.',
+        link: 'https://alvioraai.com',
+    },
     {
         iconUrl: nhs,
         theme: 'btn-back-red',

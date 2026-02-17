@@ -56,7 +56,18 @@ const Experience = () => {
                     className='text-black-500 font-medium text-base'
                     style={{ margin: 0 }}
                   >
-                    {experience.company_name}
+                    {experience.link ? (
+                      <a
+                        href={experience.link}
+                        target='_blank'
+                        rel='noopener noreferrer'
+                        className='text-blue-600 hover:underline'
+                      >
+                        {experience.company_name} ↗
+                      </a>
+                    ) : (
+                      experience.company_name
+                    )}
                   </p>
                 </div>
 
